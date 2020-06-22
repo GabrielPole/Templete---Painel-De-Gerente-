@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<title>Painel De Controle</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="CodedThemes">
+	<meta name="keywords"
+		content=" Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+	<meta name="author" content="CodedThemes">
+	<!-- Favicon icon -->
+	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<!-- Google font-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+	<!-- Required Fremwork -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap/css/bootstrap.min.css">
+	<!-- themify-icons line icon -->
+	<link rel="stylesheet" type="text/css" href="assets/icon/themify-icons/themify-icons.css">
+	<!-- ico font -->
+	<link rel="stylesheet" type="text/css" href="assets/icon/icofont/css/icofont.css">
+	<!-- Style.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" type="style_src/css" href="src\css\style.css">
+
+</head>
+
+<body>
+	<!-- Pre-loader start -->
+	<div class="theme-loader">
+		<div class="ball-scale">
+			<div class='contain'>
+				<div class="ring">
+					<div class="frame"></div>
+				</div>
+				<div class="ring">
+					<div class="frame"></div>
+				</div>
+				<div class="ring">
+
+					<div class="frame"></div>
+				</div>
+				<div class="ring">
+					<div class="frame"></div>
+				</div>
+				<div class="ring">
+					<div class="frame"></div>
+				</div>
+				<div class="ring">
+					<div class="frame"></div>
+				</div>
+				<div class="ring">
+					<div class="frame"></div>
+				</div>
+				<div class="ring">
+					<div class="frame"></div>
+				</div>
+				<div class="ring">
+					<div class="frame"></div>
+				</div>
+				<div class="ring">
+					<div class="frame"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Pre-loader end -->
+	<div id="pcoded" class="pcoded">
+		<div class="pcoded-overlay-box"></div>
+		<div class="pcoded-container navbar-wrapper">
+
+			<nav class="navbar header-navbar pcoded-header iscollapsed" header-theme="theme1"
+				pcoded-header-position="fixed">
+				<div class="navbar-wrapper">
+
+					<nav class="navbar header-navbar pcoded-header iscollapsed" header-theme="theme1"
+						pcoded-header-position="fixed">
+						<div class="navbar-wrapper">
+							<div class="navbar-container container-fluid ">
+								<ul class="nav-left">
+									<li>
+										<div class="sidebar_toggle"><a href="javascript:void(0)"><i
+													class="ti-menu"></i></a></div>
+									</li>
+
+									<li>
+										<a href="#!" onclick="javascript:toggleFullScreen()">
+											<i class="ti-fullscreen"></i>
+										</a>
+									</li>
+
+								</ul>
+
+								<!----------- Notificações ---------------->
+								<ul class="nav-right" style="display: block;">
+									<li class="header-notification">
+										<a href="#!">
+											<i class="ti-bell"></i>
+											<span class="badge bg-c-pink"></span>
+										</a>
+
+										<ul class="show-notification">
+											<li>
+												<h6>Notificações</h6>
+												<label class="label label-danger">Limpar</label>
+											</li>
+											<li>
+												<div class="media">
+													<img class="d-flex align-self-center img-radius"
+														src="assets/images/avatar-4.jpg"
+														alt="Generic placeholder image">
+													<div class="media-body">
+														<h5 class="notification-user">Supervisor - Lucas</h5>
+														<p class="notification-msg">Bom dia Marlon, hoje conseguimos ...
+														</p>
+														<span class="notification-time">2 horas atrás</span>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="media">
+													<img class="d-flex align-self-center img-radius"
+														src="assets/images/avatar-3.jpg"
+														alt="Generic placeholder image">
+													<div class="media-body">
+														<h5 class="notification-user">Sistema</h5>
+														<p class="notification-msg">Existem muitas reclamações não
+															resolvidas</p>
+														<span class="notification-time">1 dia atrás</span>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="media">
+													<img class="d-flex align-self-center img-radius"
+														src="assets/images/avatar-4.jpg"
+														alt="Generic placeholder image">
+													<div class="media-body">
+														<h5 class="notification-user">Sistema</h5>
+														<p class="notification-msg">Parabéns Marlon, você bateu a meta
+															do mês..</p>
+														<span class="notification-time">1 mês atrás</span>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</li>
+
+									<!----------- opçôes do admin ---------------->
+									<li class="user-profile header-notification">
+										<a href="#!">
+											<img src="assets/images/avatar-4.jpg" class="img-radius"
+												alt="User-Profile-Image">
+											<span>Gerente</span>
+											<i class="ti-angle-down"></i>
+										</a>
+										<ul class="show-notification profile-notification">
+											<li>
+												<a href="#!">
+													<i class="ti-settings"></i>Configuração
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="ti-user"></i>Novo Funcionário
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="ti-email"></i>Email
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="ti-lock"></i>Bloquear Tela
+												</a>
+											</li>
+											<li>
+												<a href="auth-normal-sign-in.html">
+													<i class="ti-layout-sidebar-left"></i>Sair
+												</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+					</nav>
+				</div>
+			</nav>
+
+			<div class="pcoded-main-container ">
+				<div class="pcoded-wrapper">
+					<div>
+						<div class="pcoded-inner-content">
+							<div class="main-body">
+								<div class="page-wrapper">
+									<div class="page-body justify-content-center">
+										<!-- --------- Blocos De informações  -------------------->
+										<div class="row justify-content-center">
+											<div class="col-md-6 col-xl-3">
+												<div class="card widget-card-1 ">
+
+													<div class="card-block-small">
+														<i class="icofont icofont-businessman bg-c-blue card1-icon"></i>
+														<span class="text-c-blue f-w-600">N° De Clientes</span>
+														<h4>256</h4>
+														<div>
+															<span class="f-left m-t-10 text-muted">
+																<i
+																	class="text-c-blue f-16 icofont icofont-warning m-r-10"></i>Clientes
+																atendidos no mês.
+															</span>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-md-6 col-xl-3">
+												<div class="card widget-card-1">
+													<div class="card-block-small">
+														<i class="icofont icofont-money bg-c-pink card1-icon"></i>
+														<span class="text-c-pink f-w-600" data-toggle="modal"
+															data-target="siteModal">Valor Das
+															Vendas</span>
+														<h4>$23.589</h4>
+
+														<div>
+															<span class="f-left m-t-10 text-muted">
+																<i
+																	class="text-c-pink f-16 icofont icofont-calendar m-r-10"></i>Por
+																mês.
+															</span>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="col-md-6 col-xl-3">
+												<div class="card widget-card-1">
+													<div class="card-block-small">
+														<i
+															class="icofont icofont-warning-alt bg-c-green card1-icon"></i>
+														<span class="text-c-green f-w-600">N° De Reclamações</span>
+														<h4>45</h4>
+														<div>
+															<span class="f-left m-t-10 text-muted">
+																<i
+																	class="text-c-green f-16 icofont icofont-tag m-r-10"></i>Últimos
+																3 meses.
+															</span>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-md-6 col-xl-3">
+												<div class="card widget-card-1">
+													<div class="card-block-small">
+														<i class="icofont icofont-goal bg-c-yellow card1-icon"></i>
+														<span class="text-c-yellow f-w-600">Meta</span>
+														<h4>$100.000</h4>
+														<div>
+															<span class="f-left m-t-10 text-muted">
+																<i
+																	class="text-c-yellow f-16 icofont icofont-refresh m-r-10"></i>Falta
+																$76.258.
+															</span>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<!--lista de funcionários e desempenho individual-->
+											<div class="col-md-6 col-xl-6 " style="height: 500px;">
+												<div class="card project-task">
+													<div class="card-header">
+														<div class="card-header-left">
+															<h5>Painel De Desempenho</h5>
+														</div>
+
+														<div class="card-block p-b-10">
+															<div class="table-responsive">
+																<table class="table table-hover"
+																	id="mostrar-desempenho">
+																	<thead>
+																		<tr>
+																			<th>Funcionários</th>
+																			<th>Nível</th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																		<tr>
+																			<td>
+																				<div class="task-contain">
+																					<img src="assets/images/avatar-2.jpg"
+																						data-toggle="tooltip" title=""
+																						alt="" class="img-40 m-l-10"
+																						data-original-title="Josephin Doe">
+																					<input type="radio" name="nome"
+																						onclick="AtulizarDados(0)">
+																					<p class="d-inline-block m-l-20">
+																						Carlos </p>
+
+																				</div>
+																			</td>
+																			<td>
+																				<p class="d-inline-block m-r-20">75%</p>
+																				<div class="progress d-inline-block">
+																					<div class="progress-bar bg-c-blue"
+																						role="progressbar"
+																						aria-valuemin="0"
+																						aria-valuemax="100"
+																						style="width:75%">
+																					</div>
+																				</div>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				<div class="task-contain">
+																					<img src="assets/images/avatar-1.jpg"
+																						data-toggle="tooltip" title=""
+																						alt="" class="img-40 m-l-10"
+																						data-original-title="Josephin Doe">
+																					<input type="radio" name="nome"
+																						onclick="AtulizarDados(1)">
+																					<p class="d-inline-block m-l-20">
+																						Olavo</p>
+																				</div>
+																			</td>
+																			<td>
+																				<p class="d-inline-block m-r-20">30%</p>
+																				<div class="progress d-inline-block">
+																					<div class="progress-bar bg-c-pink"
+																						role="progressbar"
+																						aria-valuemin="0"
+																						aria-valuemax="100"
+																						style="width:30%">
+																					</div>
+																				</div>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				<div class="task-contain">
+																					<img src="assets/images/avatar-3.jpg"
+																						data-toggle="tooltip" title=""
+																						alt="" class="img-40 m-l-10"
+																						data-original-title="Josephin Doe">
+																					<input type="radio" name="nome"
+																						onclick="AtulizarDados(2)">
+																					<p class="d-inline-block m-l-20"
+																						id="nome-funcionario">Julio</p>
+																				</div>
+																			</td>
+																			<td>
+																				<p class="d-inline-block m-r-20">90%</p>
+																				<div class="progress d-inline-block">
+																					<div class="progress-bar bg-c-yellow"
+																						role="progressbar"
+																						aria-valuemin="0"
+																						aria-valuemax="100"
+																						style="width:90%">
+																					</div>
+																				</div>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				<div class="task-contain">
+																					<img src="assets/images/avatar-4.jpg"
+																						data-toggle="tooltip" title=""
+																						alt="" class="img-40 m-l-10"
+																						data-original-title="Josephin Doe">
+																					<input type="radio" name="nome"
+																						onclick="AtulizarDados(3)">
+																					<p class="d-inline-block m-l-20">
+																						Renato</p>
+																				</div>
+																			</td>
+																			<td>
+																				<p class="d-inline-block m-r-20">50%</p>
+																				<div class="progress d-inline-block">
+																					<div class="progress-bar bg-c-green"
+																						role="progressbar"
+																						aria-valuemin="0"
+																						aria-valuemax="100"
+																						style="width:50%">
+																					</div>
+																				</div>
+																			</td>
+																		</tr>
+
+																	</tbody>
+																</table>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!------------- Gráficos com informações dos Funcionários -------------------->
+											<div class="col-md-6 col-lg-6" style="height: 500px;">
+												<div class="card">
+													<div class="card-header">
+														<h5 id="grafico-atendente">Grafico De Desempenho</h5>
+														<span>| A = Vendas | B = Clientes atendidos | C = Reclamações |
+														</span>
+														<div class="card-header-right"><i
+																class="icofont icofont-spinner-alt-5"></i> </div>
+													</div>
+													<div class="card-block">
+														<div id="morris-bar-chart"></div>
+													</div>
+												</div>
+											</div>
+											<!------------------		Tabela De Clientes				----------------------------------------------->
+											<div class="col-md-12 col-xl-10">
+												<div class="card add-task-card">
+													<div class="card-header" style="padding: 10px 20px;">
+
+														<div class="col-sm-8">
+															<h5 style="margin-bottom: 10px;">Tabela De Clientes</h5>
+															<input type="text" name="filtrar" id="filtrar-tabela"
+																class="form-control form-control-sm"
+																placeholder="Digite aqui para pesquisar um cliente">
+														</div>
+														<div class="card-header-right">
+															<button class="btn btn-primary btn-icon"><i
+																	class="icofont icofont-user-alt-3"
+																	onclick="mostrarTudo()"></i></button>
+															<button type="button" data-toggle="modal"
+																data-target="#FormularioDeRegistro"
+																class="btn btn-card btn-primary">Novo cliente</button>
+														</div>
+													</div>
+
+													<div class="card-block">
+														<div class="table-responsive">
+															<table class="table table-hover" id="remover">
+																<thead>
+																	<tr>
+																		<th>CPF</th>
+																		<th>Nome</th>
+																		<th>Atendente</th>
+																		<th>Email</th>
+																		<th>Telefone</th>
+																		<th>Data de nascimento</th>
+																		<th>Sexo</th>
+																		<th>Endereço</th>
+																	</tr>
+																</thead>
+																<tbody id="tabela-clientes">
+																	<tr class="cliente">
+																		<td class="info-cpf">131464797-52</td>
+																		<td class="info-nome">Mark</td>
+																		<td class="info-atendente">Carlos</td>
+																		<td class="info-email">cliente@cliente.com.br
+																		</td>
+																		<td class="info-telefone">27997866389</td>
+																		<td class="info-data">2020-06-12</td>
+																		<td class="info-sexo">M</td>
+																		<td class="info-endereco">Rua Bahia, nº 5214,
+																			vitoria</td>
+																	</tr>
+																	<tr class="cliente">
+																		<td class="info-cpf">121454787-52</td>
+																		<td class="info-nome">Jacob Oliveira</td>
+																		<td class="info-atendente">Renato</td>
+																		<td class="info-email">cliente@cliente.com.br
+																		</td>
+																		<td class="info-telefone">27997866389</td>
+																		<td class="info-data">2020-06-12</td>
+																		<td class="info-sexo">M</td>
+																		<td class="info-endereco">Rua Bahia, nº 5214,
+																			vitoria</td>
+																	</tr>
+																	<tr class="cliente">
+																		<td class="info-cpf">121454659-69</td>
+																		<td class="info-nome">Larry Silva</td>
+																		<td class="info-atendente">Julio</td>
+																		<td class="info-email">cliente@cliente.com.br
+																		</td>
+																		<td class="info-telefone">27997866389</td>
+																		<td class="info-data">2020-06-12</td>
+																		<td class="info-sexo">F</td>
+																		<td class="info-endereco">Rua Bahia, nº 5214,
+																			vitoria</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--Modal para registrar novos clientes-->
+
+					<div class="modal fade" id="FormularioDeRegistro" tabindex="-1" role="dialog"
+						aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<form class="md-float-material" id="add-cliente">
+
+								<div class="auth-box">
+
+									<div class="row  m-b-20">
+
+										<div class="col-md-12">
+											<h1 class="text-center txt-primary">Registrar Cliente</h1>
+										</div>
+									</div>
+									<hr>
+									<p>Nome</p>
+									<div class="input-group">
+										<input type="text" class="form-control" name="nome" placeholder="Nome completo"
+											checked>
+										<span class="md-line"></span>
+									</div>
+
+									<P>Data de nascimento</P>
+									<div class="input-group">
+										<input type="date" class="form-control" name="data"
+											placeholder="Data de nascimento">
+										<span class="md-line"></span>
+									</div>
+
+									<p>CPF</p>
+									<div class="input-group">
+										<input type="text" class="form-control" name="cpf"
+											placeholder="Ex.: 000.000.000-00">
+										<span class="md-line"></span>
+									</div>
+
+									<p>Atendente</p>
+									<div class="input-group">
+										<input type="text" class="form-control" name="atendente" placeholder="Nome">
+										<span class="md-line"></span>
+									</div>
+
+									<p>Endereço</p>
+									<div class="input-group">
+										<input type="text" class="form-control" name="endereco"
+											placeholder="Cidade - Bairro - RUA - Nº">
+										<span class="md-line"></span>
+									</div>
+
+									<p>Telefone</p>
+									<div class="input-group">
+										<input type="tel" class="form-control" name="telefone"
+											placeholder="Ex.: 0000-0000">
+										<span class="md-line"></span>
+									</div>
+									<p>Email</p>
+									<div class="input-group">
+										<input type="email" class="form-control" name="email"
+											placeholder="cliente@cliente.com.br">
+										<span class="md-line"></span>
+									</div>
+									<p>Sexo</p>
+									<div class="row m-t-25 text-left">
+										<div class="col-md-12">
+											<input type="radio" name="sexo" id="masc" value="M" checked>
+											<label for="mas">Masculino</label>
+											<input type="radio" name="sexo" id="fem" value="F">
+											<label for="fem">Feminino</label>
+										</div>
+									</div>
+									<div class="row m-t-30">
+										<div class="col-md-12">
+											<div class="form-group">
+												<button class="btn btn-secondary btn-outline-danger"
+													data-dismiss="modal"><i
+														class="icofont icofont-eye-alt"></i>Sair</button>
+												<button class="btn btn-primary btn-outline-primary"
+													id="adicionar-cliente"><i
+														class="icofont icofont-user-alt-3"></i>Registrar
+													cliente</button>
+											</div>
+										</div>
+										<hr>
+									</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<!-- Required Jquery -->
+				<script type="text/javascript" src="assets/js/jquery/jquery.min.js"></script>
+				<script type="text/javascript" src="assets/js/jquery-ui/jquery-ui.min.js"></script>
+				<script type="text/javascript" src="assets/js/popper.js/popper.min.js"></script>
+				<script type="text/javascript" src="assets/js/bootstrap/js/bootstrap.min.js"></script>
+				<!-- jquery slimscroll js -->
+				<script type="text/javascript" src="assets/js/jquery-slimscroll/jquery.slimscroll.js"></script>
+				<!-- modernizr js -->
+				<script type="text/javascript" src="assets/js/modernizr/modernizr.js"></script>
+				<script type="text/javascript" src="assets/js/modernizr/css-scrollbars.js"></script>
+				<!-- Morris Chart js -->
+				<script src="assets/js/raphael/raphael.min.js"></script>
+				<script src="assets/js/morris.js/morris.js"></script>
+				<!-- Todo js -->
+				<script type="text/javascript " src="assets/pages/todo/todo.js "></script>
+				<!-- Custom js -->
+				<script type="text/javascript" src="assets/pages/dashboard/custom-dashboard.js"></script>
+				<script type="text/javascript" src="assets/js/script.js"></script>
+				<script type="text/javascript " src="assets/js/SmoothScroll.js"></script>
+				<script src="assets/js/pcoded.min.js"></script>
+				<script src="assets/js/demo-12.js"></script>
+				<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+				<!-- My scripts -->
+				<script src="src\js\addTable.js"></script>
+				<script src="src\js\filtro.js"></script>
+				<script src="src\js\Atendentes.js"></script>
+				<script src="src\js\atendenteDinamico.js"></script>
+</body>
+
+</html>
